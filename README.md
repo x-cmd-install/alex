@@ -12,6 +12,28 @@ Catch insensitive, inconsiderate writing
 x install alex
 ```
 
+## Code insight
+
+Total: **1,022** lines of code across **13** files in the top 5 languages.
+
+| Language | Code | Comments | Blanks | Files |
+|----------|-----:|---------:|-------:|------:|
+| JavaScript | 832 | 92 | 118 | 6 |
+| Json | 169 | 0 | 0 | 2 |
+| Html | 17 | 1 | 0 | 1 |
+| Svg | 3 | 0 | 0 | 3 |
+| Yaml | 1 | 0 | 0 | 1 |
+
+## OpenSSF Scorecard
+
+Overall score: **2.6 / 10**
+
+Lowest-scoring checks:
+
+- **Code-Review** (1/10) — Found 5/30 approved changesets -- score normalized to 1
+- **Packaging** (-1/10) — packaging workflow not detected
+- **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
+
 ## Source
 
 - **Upstream**: <https://github.com/get-alex/alex>
@@ -36,30 +58,28 @@ x install alex
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
 | 30d | 2026-08-11 | 0 | 0 | 0 | 0 | 0 | 0 |
+| last60d | 2026-07-12 | 0 | 0 | 0 | 0 | 0 | 0 |
 | 90d | 2026-06-12 | 0 | 0 | 0 | 0 | 0 | 0 |
+| last180d | 2026-03-14 | 0 | 0 | 0 | 0 | 0 | 0 |
 | 360d | 2025-09-15 | 0 | 0 | 2 | 1 | 0 | 0 |
+| last720d | 2024-09-20 | 0 | 1 | 3 | 2 | 3 | 1 |
 
-## Code size
+## Distribution status
 
-Total: **1,022** lines of code across **13** files in the top 5 languages.
+Reported by **116** distros on [repology.org](https://repology.org/project/alex). **21** are ✅ on the latest upstream release, **86** are ⚠️ on an older version.
 
-| Language | Code | Comments | Blanks | Files |
-|----------|-----:|---------:|-------:|------:|
-| JavaScript | 832 | 92 | 118 | 6 |
-| Json | 169 | 0 | 0 | 2 |
-| Html | 17 | 1 | 0 | 1 |
-| Svg | 3 | 0 | 0 | 3 |
-| Yaml | 1 | 0 | 0 | 1 |
-
-## OpenSSF Scorecard
-
-Overall score: **2.6 / 10**
-
-Lowest-scoring checks:
-
-- **Code-Review** (1/10) — Found 5/30 approved changesets -- score normalized to 1
-- **Packaging** (-1/10) — packaging workflow not detected
-- **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
+| Distro | Version | Status |
+|--------|---------|--------|
+| Debian unstable | `3.5.4.0` | ⚠️ outdated |
+| Debian 14 | `3.5.4.0` | ⚠️ outdated |
+| Debian 13 | `3.4.0.1` | ⚠️ outdated |
+| Ubuntu 26.04 LTS | `3.5.4.0` | ⚠️ outdated |
+| Ubuntu 24.04 LTS | `3.3.0.0` | ⚠️ outdated |
+| Arch | `3.5.4.2` | ✅ latest |
+| Fedora rawhide | `3.5.4.0` | ⚠️ outdated |
+| Nix unstable | `3.5.4.2` | ✅ latest |
+| Alpine edge | `3.5.4.2` | ✅ latest |
+| openSUSE Tumbleweed | `3.5.4.2` | ✅ latest |
 
 ## Improve this data
 
@@ -70,4 +90,4 @@ Install metadata for alex lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260910.yml` · 2026-09-10T16:13:41Z._
+_Snapshot: `data/card/260910.yml` · 2026-09-10T21:14:18Z._
