@@ -1,3 +1,54 @@
+- repo: pclinuxos
+  srcname: alex
+  visiblename: alex
+  version: 2.0.1
+  origversion: 2.0.1-4pclos2007
+  status: outdated
+  summary: The lexer generator for Haskell
+  maintainers:
+    - neverstopdreaming@gmail.com
+  categories:
+    - Development/Other
+- repo: nix_stable_25_05
+  srcname: alex
+  visiblename: alex
+  version: 3.5.3.0
+  origversion: null
+  status: outdated
+  summary: Alex is a tool for generating lexical analysers in Haskell
+  maintainers:
+    - fallback-mnt-nix@repology
+  licenses:
+    - BSD-3-Clause
+- repo: nix_stable_24_11
+  srcname: haskellPackages.alex_3_5_1_0
+  visiblename: alex
+  version: 3.5.1.0
+  origversion: null
+  status: outdated
+  summary: Alex is a tool for generating lexical analysers in Haskell
+  maintainers:
+    - fallback-mnt-nix@repology
+  licenses:
+    - BSD-3-Clause
+  categories:
+    - haskellPackages
+- repo: parrot
+  subrepo: parrot/main
+  srcname: alex
+  binnames:
+    - alex
+  visiblename: alex
+  version: 3.4.0.1
+  origversion: 3.4.0.1-1
+  status: outdated
+  maintainers:
+    - pkg-haskell-maintainers@lists.alioth.debian.org
+    - clint@debian.org
+    - iliastsi@debian.org
+    - louis@bettens.info
+  categories:
+    - haskell
 - repo: alpine_3_17
   subrepo: community
   srcname: alex
@@ -128,22 +179,6 @@
     - cielesti@protonmail.com
   licenses:
     - BSD-3-Clause
-- repo: devuan_unstable
-  subrepo: unstable/main
-  srcname: alex
-  binnames:
-    - alex
-  visiblename: alex
-  version: 3.5.4.0
-  origversion: 3.5.4.0-1
-  status: outdated
-  maintainers:
-    - pkg-haskell-maintainers@lists.alioth.debian.org
-    - clint@debian.org
-    - iliastsi@debian.org
-    - louis@bettens.info
-  categories:
-    - haskell
 - repo: alpine_3_22
   subrepo: community
   srcname: alex
@@ -438,6 +473,20 @@
     - louis@bettens.info
   categories:
     - haskell
+- repo: fedora_42
+  subrepo: release
+  srcname: alex
+  binnames:
+    - alex
+  visiblename: alex
+  version: 3.4.0.1
+  origversion: 3.4.0.1-2.fc42
+  status: outdated
+  summary: Tool for generating lexical analysers in Haskell
+  licenses:
+    - BSD-3-Clause
+  categories:
+    - Unspecified
 - repo: debian_unstable
   subrepo: sid/main
   srcname: alex
@@ -520,6 +569,22 @@
     - nomeata@debian.org
   categories:
     - haskell
+- repo: devuan_unstable
+  subrepo: unstable/main
+  srcname: alex
+  binnames:
+    - alex
+  visiblename: alex
+  version: 3.5.4.0
+  origversion: 3.5.4.0-1
+  status: outdated
+  maintainers:
+    - pkg-haskell-maintainers@lists.alioth.debian.org
+    - clint@debian.org
+    - iliastsi@debian.org
+    - louis@bettens.info
+  categories:
+    - haskell
 - repo: epel_7
   srcname: alex
   visiblename: alex
@@ -584,23 +649,6 @@
     - fallback-mnt-exherbo@repology
   categories:
     - dev-haskell
-- repo: pardus_21
-  subrepo: main
-  srcname: alex
-  binnames:
-    - alex
-  visiblename: alex
-  version: 3.2.5
-  origversion: 3.2.5-2
-  status: outdated
-  maintainers:
-    - pkg-haskell-maintainers@lists.alioth.debian.org
-    - clint@debian.org
-    - iliastsi@debian.org
-    - louis@bettens.info
-    - nomeata@debian.org
-  categories:
-    - haskell
 - repo: fedora_39
   subrepo: release
   srcname: alex
@@ -647,20 +695,6 @@
     - BSD-3-Clause
   categories:
     - Unspecified
-- repo: fedora_42
-  subrepo: release
-  srcname: alex
-  binnames:
-    - alex
-  visiblename: alex
-  version: 3.4.0.1
-  origversion: 3.4.0.1-2.fc42
-  status: outdated
-  summary: Tool for generating lexical analysers in Haskell
-  licenses:
-    - BSD-3-Clause
-  categories:
-    - Unspecified
 - repo: fedora_43
   subrepo: release
   srcname: alex
@@ -683,6 +717,20 @@
   visiblename: alex
   version: 3.5.4.0
   origversion: 3.5.4.0-1.fc44
+  status: outdated
+  summary: Tool for generating lexical analysers in Haskell
+  licenses:
+    - BSD-3-Clause
+  categories:
+    - Unspecified
+- repo: fedora_45
+  subrepo: release
+  srcname: alex
+  binnames:
+    - alex
+  visiblename: alex
+  version: 3.5.4.0
+  origversion: 3.5.4.0-2.fc45
   status: outdated
   summary: Tool for generating lexical analysers in Haskell
   licenses:
@@ -956,17 +1004,6 @@
   categories:
     - haskellPackages
 - repo: nix_stable_24_11
-  srcname: alex
-  visiblename: alex
-  version: 3.4.0.1
-  origversion: null
-  status: legacy
-  summary: Alex is a tool for generating lexical analysers in Haskell
-  maintainers:
-    - fallback-mnt-nix@repology
-  licenses:
-    - BSD-3-Clause
-- repo: nix_stable_24_11
   srcname: haskellPackages.alex
   visiblename: alex
   version: 3.4.0.1
@@ -980,29 +1017,32 @@
   categories:
     - haskellPackages
 - repo: nix_stable_24_11
-  srcname: haskellPackages.alex_3_5_1_0
-  visiblename: alex
-  version: 3.5.1.0
-  origversion: null
-  status: outdated
-  summary: Alex is a tool for generating lexical analysers in Haskell
-  maintainers:
-    - fallback-mnt-nix@repology
-  licenses:
-    - BSD-3-Clause
-  categories:
-    - haskellPackages
-- repo: nix_stable_25_05
   srcname: alex
   visiblename: alex
-  version: 3.5.3.0
+  version: 3.4.0.1
   origversion: null
-  status: outdated
+  status: legacy
   summary: Alex is a tool for generating lexical analysers in Haskell
   maintainers:
     - fallback-mnt-nix@repology
   licenses:
     - BSD-3-Clause
+- repo: parrot
+  subrepo: parrot-updates/main
+  srcname: alex
+  binnames:
+    - alex
+  visiblename: alex
+  version: 3.4.0.1
+  origversion: 3.4.0.1-1
+  status: outdated
+  maintainers:
+    - pkg-haskell-maintainers@lists.alioth.debian.org
+    - clint@debian.org
+    - iliastsi@debian.org
+    - louis@bettens.info
+  categories:
+    - haskell
 - repo: nix_stable_25_05
   srcname: haskellPackages.alex
   visiblename: alex
@@ -1041,7 +1081,7 @@
   licenses:
     - BSD-3-Clause
 - repo: nix_stable_26_05
-  srcname: haskellPackages.alex
+  srcname: alex
   visiblename: alex
   version: 3.5.4.2
   origversion: null
@@ -1051,20 +1091,7 @@
     - fallback-mnt-nix@repology
   licenses:
     - BSD-3-Clause
-  categories:
-    - haskellPackages
 - repo: nix_stable_26_05
-  srcname: alex
-  visiblename: alex
-  version: 3.5.4.2
-  origversion: null
-  status: newest
-  summary: Alex is a tool for generating lexical analysers in Haskell
-  maintainers:
-    - fallback-mnt-nix@repology
-  licenses:
-    - BSD-3-Clause
-- repo: nix_unstable
   srcname: haskellPackages.alex
   visiblename: alex
   version: 3.5.4.2
@@ -1088,6 +1115,19 @@
     - fallback-mnt-nix@repology
   licenses:
     - BSD-3-Clause
+- repo: nix_unstable
+  srcname: haskellPackages.alex
+  visiblename: alex
+  version: 3.5.4.2
+  origversion: null
+  status: newest
+  summary: Alex is a tool for generating lexical analysers in Haskell
+  maintainers:
+    - fallback-mnt-nix@repology
+  licenses:
+    - BSD-3-Clause
+  categories:
+    - haskellPackages
 - repo: openbsd
   srcname: devel/alex
   binname: alex
@@ -1167,49 +1207,23 @@
   summary: Lexical analyser generator for Haskell
   licenses:
     - BSD-3-Clause
-- repo: parrot
-  subrepo: parrot/main
+- repo: pardus_21
+  subrepo: main
   srcname: alex
   binnames:
     - alex
   visiblename: alex
-  version: 3.4.0.1
-  origversion: 3.4.0.1-1
+  version: 3.2.5
+  origversion: 3.2.5-2
   status: outdated
   maintainers:
     - pkg-haskell-maintainers@lists.alioth.debian.org
     - clint@debian.org
     - iliastsi@debian.org
     - louis@bettens.info
+    - nomeata@debian.org
   categories:
     - haskell
-- repo: parrot
-  subrepo: parrot-updates/main
-  srcname: alex
-  binnames:
-    - alex
-  visiblename: alex
-  version: 3.4.0.1
-  origversion: 3.4.0.1-1
-  status: outdated
-  maintainers:
-    - pkg-haskell-maintainers@lists.alioth.debian.org
-    - clint@debian.org
-    - iliastsi@debian.org
-    - louis@bettens.info
-  categories:
-    - haskell
-- repo: pclinuxos
-  srcname: alex
-  visiblename: alex
-  version: 2.0.1
-  origversion: 2.0.1-4pclos2007
-  status: outdated
-  summary: The lexer generator for Haskell
-  maintainers:
-    - neverstopdreaming@gmail.com
-  categories:
-    - Development/Other
 - repo: pkgsrc_2026_2
   srcname: devel/alex
   binname: alex
