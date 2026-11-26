@@ -57,29 +57,12 @@ x install alex
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-26 | 0 | 0 | 0 | 0 | 0 | 0 |
-| last60d | 2026-09-26 | 0 | 0 | 0 | 0 | 0 | 0 |
-| 90d | 2026-08-27 | 0 | 0 | 0 | 0 | 0 | 0 |
-| last180d | 2026-05-29 | 0 | 0 | 0 | 0 | 0 | 0 |
-| 360d | 2025-11-30 | 0 | 0 | 1 | 1 | 0 | 0 |
-| last720d | 2024-12-05 | 0 | 0 | 3 | 2 | 2 | 0 |
-
-## 发行版状态
-
-在 [repology.org](https://repology.org/project/alex) 上共有 **116** 个发行版报告此项目。**25** 个 ✅ 已是最新上游版本，**80** 个 ⚠️ 使用旧版本。
-
-| 发行版 | 版本 | 状态 |
-|--------|------|------|
-| Debian unstable | `3.5.4.0` | ⚠️ outdated |
-| Debian 14 | `3.5.4.0` | ⚠️ outdated |
-| Debian 13 | `3.4.0.1` | ⚠️ outdated |
-| Ubuntu 26.04 LTS | `3.5.4.0` | ⚠️ outdated |
-| Ubuntu 24.04 LTS | `3.3.0.0` | ⚠️ outdated |
-| Arch | `3.5.4.2` | ✅ latest |
-| Fedora rawhide | `3.5.4.0` | ⚠️ outdated |
-| Nix unstable | `3.5.4.2` | ✅ latest |
-| Alpine edge | `3.5.4.2` | ✅ latest |
-| openSUSE Tumbleweed | `3.5.4.2` | ✅ latest |
+| 30d | 2026-10-27 | 0 | 0 | 0 | 0 | 0 | 0 |
+| last60d | 2026-09-27 | 0 | 0 | 0 | 0 | 0 | 0 |
+| 90d | 2026-08-28 | 0 | 0 | 0 | 0 | 0 | 0 |
+| last180d | 2026-05-30 | 0 | 0 | 0 | 0 | 0 | 0 |
+| 360d | 2025-12-01 | 0 | 0 | 1 | 1 | 0 | 0 |
+| last720d | 2024-12-06 | 0 | 0 | 3 | 2 | 2 | 0 |
 
 ## 改进这些数据
 
@@ -90,4 +73,4 @@ alex 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 索
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261125.yml` · 2026-11-25T07:55:55Z._
+_数据快照: `data/card/261126.yml` · 2026-11-26T07:47:45Z._
